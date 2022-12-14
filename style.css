@@ -1,0 +1,34 @@
+p{
+    color: red;
+}
+.spec{
+    color:brown;
+}
+#specificity {
+color:royalblue;
+}
+*{
+    color:darkblue;
+}
+
+/* child elements of ul tag will get color by providing nth no */
+
+ul li:nth-child(4){
+    color : red
+}
+/* Alternate child elements of ul tag will get color by providing 2nth no */
+
+ul li:nth-child(2n){
+    color : yellowgreen
+}
+input[type="Checkbox"]:focus {
+    border: 1 px solid red
+}
+
+/* Inheritance*/
+.InheritDiv {
+    color: blue;
+}
+.InheritDiv p{
+    color:inherit;
+}
