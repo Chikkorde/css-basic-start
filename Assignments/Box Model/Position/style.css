@@ -1,0 +1,19 @@
+.Parent{
+  position:relative;
+  left: 30px;
+  top : 40 px;
+}
+.child{
+  position:static;
+  
+    }
+.child-one{
+  position : absolute;
+    }
+.child-two{
+  position :fixed;
+}
+    
+.child-three{
+position :sticky;
+}

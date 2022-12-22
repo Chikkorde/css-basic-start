@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .Parent{
+            height:400px;
+            background-color: black;
+            color:white;
+            padding:30px;
+        }
+        .child{
+            
+            padding :15px;
+
+        }
+        .child-one{
+            background-color:green;
+           
+
+        }
+        .child-two{
+            background-color:blue;
+        }
+        .child-three{
+            background-color:red;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>CSS positions</h1>
+        <ol> 
+            <li>static: This is an original position of an element</li>
+            <li>relative:An element can be positioned relative to its original position</li>
+            <li>absolute:positions relative to its parent,if no parent present then positions itself relative to the its main document</li>
+            <li>fixed: elements are positioned w r t the viewport and element doesn't move</li>
+
+        </ol>
+    </div>
+    <div class="Parent">Parent
+        <div class="child-one">One</div>
+        <div class="child-two">Two</div>
+        <div class="child-three">Three</div>
+    </div>
+
+
+    
+</body>
+</html>
